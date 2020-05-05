@@ -1,0 +1,48 @@
+* {
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+body {
+    height: 700px;
+    width: 700px;
+    background: orange;
+}
+.wrapper {
+    width: 525px;
+    height: 500px;
+    background: gray;
+    border-radius: 5px;
+    position: relative;
+    top: 200px;
+}
+.canvas {
+    position: relative;
+    top: -15px;
+    margin: 150px auto;
+    height: 500px;
+    width: 500px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+}
+.header {
+    height: 150px;
+    width: 100%;
+    background:rgb(192, 101, 98);
+    border-radius: 5px 5px 0 0;
+}
+.header h1 {
+    position: relative;
+    top: 30px;
+    font-size: 4rem;
+    color: white;
+}
+.bottom h1 {
+    position: relative;
+    top: 75px;
+    font-size: 8rem;
+    font-weight: 500;
+}
